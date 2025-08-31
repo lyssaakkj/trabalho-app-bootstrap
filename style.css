@@ -1,0 +1,48 @@
+:root {
+  --primary-color: #ff6600; 
+  --light-color: #ffffff;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+
+.navbar-custom {
+  background-color: var(--primary-color);
+}
+
+.navbar-custom .nav-link,
+.navbar-custom .navbar-brand {
+  color: var(--light-color);
+}
+
+.navbar-custom .nav-link:hover {
+  color: #ffe6cc;
+}
+
+
+.btn-primary-custom {
+  background-color: var(--primary-color);
+  border: none;
+  color: white;
+}
+
+.btn-primary-custom:hover {
+  background-color: #e65c00;
+}
+
+
+.bg-primary-custom {
+  background-color: var(--primary-color);
+  color: var(--light-color);
+}
+
+
+#sobre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
